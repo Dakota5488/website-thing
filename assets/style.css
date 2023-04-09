@@ -1,0 +1,54 @@
+@import url('catppuccin.css');
+
+@font-face {
+    font-family: 'Monofur';
+    src: url('monof55.ttf');
+  }
+
+  body {
+    font-family: 'Monofur';
+    color: var(--ctp-macchiato-text);
+    background-color: var(--ctp-macchiato-crust);
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    box-sizing: border-box;
+    background: var(--ctp-mocha-pink);
+    color: var(--ctp-latte-text);
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px var(--ctp-macchiato-crust);
+  }
+
+  a {
+    color: var(--ctp-frappe-crust);
+  }
+
+  .header {
+    font-size: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: var(--ctp-latte-text);
+    background-color: var(--ctp-mocha-pink);
+  }
+  
